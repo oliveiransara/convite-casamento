@@ -140,12 +140,12 @@ p {
   .botao1 {
     align-items: right;
     background: rgba(250, 243, 243, 0.568);
-    box-shadow: 0 2px 0 rgba(223, 224, 223, 0.027);
+    box-shadow: 0 2px 0 rgba(151, 153, 151, 0.212);
   }
 
   .botao1:hover {
-    background: #91bb8b3d;
-    box-shadow: 0 3px 0 rgba(94, 143, 96, 0.24);
+    background: #91bb8b52;
+    box-shadow: 0 3px 0 rgba(87, 129, 89, 0.267);
   }
 
   .botao1:active {
