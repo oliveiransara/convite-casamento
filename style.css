@@ -13,7 +13,7 @@ body {
   background-image: url(assets/background.jpg);
   background-position: center;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .borda_texto {
