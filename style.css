@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  margin: 5px;
+  padding: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: white;
+  background-image: url(assets/background.jpg);
+  background-position: center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.borda_texto {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  letter-spacing: 1px;
+  color: black;
+  text-align: center;
+  height: 260px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 190px;
+}
+.bt {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  letter-spacing: 1px;
+}
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 1px;
+  height: 30px;
+  width: 350px;
+  cursor: pointer;
+}
+
+.botao1 {
+  align-items: right;
+  background: rgba(250, 243, 243, 0.822);
+  box-shadow: 0 2px 0 rgba(158, 230, 160, 0.822);
+}
+
+.botao1:hover {
+  background: #a9eea065;
+  box-shadow: 0 3px 0 rgba(88, 184, 91, 0.788);
+}
+
+.botao1:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+footer {
+  font-size: 8px;
+  color: rgb(150, 150, 150);
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
