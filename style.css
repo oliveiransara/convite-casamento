@@ -16,7 +16,6 @@ body {
   background-position: center;
   background-attachment: scroll;
   background-size: cover;
-  margin: 10px;
   height: 100%;
 }
 
@@ -26,7 +25,7 @@ body {
   letter-spacing: 1px;
   color: black;
   text-align: center;
-  height: 140px;
+  height: 130px;
 }
 p {
   font-family: "Great Vibes", cursive;
@@ -34,18 +33,18 @@ p {
   text-align: center;
 }
 .data {
-  font-size: 28px;
+  font-size: 25px;
 }
 .container1 {
   display: block;
   justify-content: space-between;
-  height: 20px;
+  height: 5px;
 }
 .container {
   display: flex;
   justify-content: center;
   margin-top: 300px;
-  margin-bottom: 90px;
+  margin-bottom: 70px;
 }
 .bt {
   text-decoration: none;
@@ -62,7 +61,7 @@ p {
   border: none;
   border-radius: 10px;
   padding: 1px;
-  height: 30px;
+  height: 50px;
   width: 350px;
   cursor: pointer;
 }
@@ -90,6 +89,7 @@ p {
     background-position: center;
     background-attachment: scroll;
     background-size: cover;
+    height: 100%;
   }
   .borda_texto {
     font-family: "Great Vibes", cursive;
@@ -98,6 +98,8 @@ p {
     color: black;
     text-align: center;
     height: 290px;
+    margin-top: 15px;
+    margin-bottom: 0;
   }
 
   .container1 {
@@ -107,7 +109,7 @@ p {
     align-items: center;
     margin-top: 0;
     margin-bottom: 0;
-    height: 10px;
+    height: 5px;
   }
   p {
     font-family: "Great Vibes", cursive;
@@ -120,7 +122,7 @@ p {
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
-    margin-top: 350px;
+    margin-top: 330px;
   }
 
   .botao {
@@ -155,6 +157,13 @@ p {
   }
   .data {
     font-size: 24px;
+  }
+  footer {
+    font-size: 8px;
+    color: rgb(150, 150, 150);
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 25px;
   }
 }
 footer {
