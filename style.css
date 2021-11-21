@@ -33,6 +33,9 @@ p {
   font-size: 30px;
   text-align: center;
 }
+.data {
+  font-size: 28px;
+}
 .container1 {
   display: block;
   justify-content: space-between;
@@ -88,6 +91,15 @@ p {
     background-attachment: scroll;
     background-size: cover;
   }
+  .borda_texto {
+    font-family: "Great Vibes", cursive;
+    font-size: 45px;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    height: 290px;
+  }
+
   .container1 {
     display: flex;
     flex-direction: column;
@@ -110,21 +122,13 @@ p {
     margin-bottom: 0;
     margin-top: 350px;
   }
-  .borda_texto {
-    font-family: "Great Vibes", cursive;
-    font-size: 45px;
-    letter-spacing: 1px;
-    color: black;
-    text-align: center;
-    height: 290px;
-  }
 
   .botao {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     font-family: "Great Vibes", cursive;
-    font-size: 30px;
+    font-size: 25px;
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -148,6 +152,9 @@ p {
     position: relative;
     top: 5px;
     box-shadow: none;
+  }
+  .data {
+    font-size: 24px;
   }
 }
 footer {
