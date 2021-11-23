@@ -14,11 +14,13 @@ body {
 
 .background-section {
   background-image: url(assets/background_desk_1.png);
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
 }
 .section-container {
   font-family: "Great Vibes", cursive;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -27,6 +29,7 @@ body {
 }
 h1 {
   font-size: 60px;
+  margin-top: 20px;
 }
 .p1 {
   font-size: 25px;
@@ -75,7 +78,7 @@ a {
   cursor: pointer;
   align-items: center;
   width: 250px;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 .botao1 {
@@ -100,7 +103,7 @@ footer {
   font-size: 8px;
   text-align: center;
   color: black;
-  margin-top: 10px;
+  margin-top: 45px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -128,6 +131,7 @@ footer {
     font-family: "Great Vibes", cursive;
     font-size: 45px;
     letter-spacing: 1px;
+    margin-top: 95px;
   }
   .p1 {
     font-size: 20px;
@@ -166,7 +170,7 @@ footer {
   .confirmar-pres {
     width: 100%;
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 3px;
   }
 
   footer {
@@ -174,6 +178,6 @@ footer {
     font-size: 8px;
     text-align: center;
     color: black;
-    margin-top: 50px;
+    margin-top: 90px;
   }
 }
