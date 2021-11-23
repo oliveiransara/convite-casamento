@@ -61,7 +61,35 @@ a {
   width: 500px;
   margin-top: 20px;
 }
+.button {
+  font-family: "Great Vibes", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  align-items: center;
+  width: 250px;
+  margin-top: 5px;
+}
 
+.button1 {
+  align-items: right;
+  background: rgba(250, 243, 243, 0.212);
+  box-shadow: 0 2px 0 rgba(223, 219, 219, 0.822);
+}
+
+.button1:hover {
+  background: rgba(214, 211, 211, 0.822);
+  box-shadow: 0 3px 0 rgba(145, 142, 142, 0.822);
+}
+
+.button1:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
 .confirmar-pres {
   width: 500px;
   font-size: 25px;
@@ -78,18 +106,18 @@ a {
   cursor: pointer;
   align-items: center;
   width: 250px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .botao1 {
   align-items: right;
   background: rgba(250, 243, 243, 0.822);
-  box-shadow: 0 2px 0 rgba(230, 158, 188, 0.822);
+  box-shadow: 0 3px 0 rgba(230, 158, 188, 0.822);
 }
 
 .botao1:hover {
   background: rgba(230, 158, 188, 0.822);
-  box-shadow: 0 3px 0 rgba(233, 131, 173, 0.822);
+  box-shadow: 0 4px 0 rgba(233, 131, 173, 0.822);
 }
 
 .botao1:active {
@@ -103,7 +131,7 @@ footer {
   font-size: 8px;
   text-align: center;
   color: black;
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -131,7 +159,7 @@ footer {
     font-family: "Great Vibes", cursive;
     font-size: 45px;
     letter-spacing: 1px;
-    margin-top: 95px;
+    margin-top: 90px;
   }
   .p1 {
     font-size: 20px;
@@ -170,7 +198,36 @@ footer {
   .confirmar-pres {
     width: 100%;
     font-size: 25px;
-    margin-top: 3px;
+    margin-top: 4px;
+  }
+  .button {
+    font-family: "Great Vibes", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    align-items: center;
+    width: 250px;
+    margin-top: 5px;
+  }
+
+  .button1 {
+    align-items: right;
+    background: rgba(250, 243, 243, 0.425);
+    box-shadow: 0 2px 0 rgba(252, 197, 220, 0.822);
+  }
+
+  .button1:hover {
+    background: rgba(243, 179, 206, 0.822);
+    box-shadow: 0 3px 0 rgba(247, 154, 193, 0.822);
+  }
+
+  .button1:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
   }
 
   footer {
@@ -178,6 +235,6 @@ footer {
     font-size: 8px;
     text-align: center;
     color: black;
-    margin-top: 90px;
+    margin-top: 20px;
   }
 }
