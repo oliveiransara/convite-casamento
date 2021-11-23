@@ -159,7 +159,8 @@ footer {
     font-family: "Great Vibes", cursive;
     font-size: 45px;
     letter-spacing: 1px;
-    margin-top: 90px;
+    margin-top: 50px;
+    margin-bottom: 0;
   }
   .p1 {
     font-size: 20px;
@@ -178,7 +179,7 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
     flex-direction: column;
   }
 
@@ -192,13 +193,7 @@ footer {
   .quando-onde {
     font-size: 25px;
     width: 100%;
-    margin-top: 10px;
-  }
-
-  .confirmar-pres {
-    width: 100%;
-    font-size: 25px;
-    margin-top: 4px;
+    margin-top: 5px;
   }
   .button {
     font-family: "Great Vibes", cursive;
@@ -230,11 +225,47 @@ footer {
     box-shadow: none;
   }
 
+  .confirmar-pres {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .botao {
+    font-family: "Great Vibes", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    align-items: center;
+    width: 250px;
+    margin-top: 1px;
+  }
+
+  .botao1 {
+    align-items: right;
+    background: rgba(250, 243, 243, 0.822);
+    box-shadow: 0 3px 0 rgba(230, 158, 188, 0.822);
+  }
+
+  .botao1:hover {
+    background: rgba(230, 158, 188, 0.822);
+    box-shadow: 0 4px 0 rgba(233, 131, 173, 0.822);
+  }
+
+  .botao1:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+  }
+
   footer {
     font-family: sans-serif;
     font-size: 8px;
     text-align: center;
     color: black;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 0;
   }
 }
